@@ -35,10 +35,10 @@ h2 {
     border-bottom: dotted 3px rgb(236, 122, 122);
 }
 h2::before {
-    content: ⚫︎;
+    content: "⚫︎";
     color: rgb(239, 111, 139);
 }
-.kasa {
+p:nth-of-type(2)::first-letter {
     /* 「傘」一部文字色変更 */
     font-weight: bold;
     color: rgb(97, 206, 249);
